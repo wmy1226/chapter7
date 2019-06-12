@@ -20,9 +20,9 @@ task_queue = Queue.Queue()
 
 
 def connect_to_github():
-    gh = login(username="ChosenOne95", token="612ceeee06790be4f4bbf4db18c6c9ec01f90212")
+    gh = login(username="wmy1226", token="a27b926fd1acb89d062f0f57a1a4118e1ddec4bf")
     print(gh)
-    repo = gh.repository("ChosenOne95", "chapter7")
+    repo = gh.repository("wmy1226", "chapter7")
     print(repo)
     branch = repo.branch("master")
     return gh, repo, branch
